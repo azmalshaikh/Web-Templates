@@ -1,0 +1,815 @@
+Machine learning,"Part of a series onMachine learningand data mining
+Problems
+Classification
+Regression
+Clustering
+dimension reduction
+density estimation
+Anomaly detection
+Data Cleaning
+AutoML
+Association rules
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Reinforcement learning
+Supervised learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+Supervised learning(classification • regression) 
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k-NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Cognitive computing
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+ESN
+reservoir computing
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+Transformer
+Vision
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+Multi-agent
+Self-play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human-in-the-loop
+
+Model diagnostics
+Learning curve
+
+Theory
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+Machine-learning venues
+NeurIPS
+ICML
+ICLR
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine-learning research
+Outline of machine learning
+vte","Learning algorithms work on the basis that strategies, algorithms, and inferences that worked well in the past are likely to continue working well in the future. These inferences can be obvious, such as ""since the sun rose every morning for the last 10,000 days, it will probably rise tomorrow morning as well"". They can be nuanced, such as ""X% of families have geographically separate species with color variants, so there is a Y% chance that undiscovered black swans exist"".[10]
+"
+Statistical learning in language acquisition,No InfoBox,"The earliest evidence for these statistical learning abilities comes from a study by Jenny Saffran, Richard Aslin, and Elissa Newport, in which 8-month-old infants were presented with nonsense streams of monotone speech. Each stream was composed of four three-syllable ""pseudowords"" that were repeated randomly. After exposure to the speech streams for two minutes, infants reacted differently to hearing ""pseudowords"" as opposed to ""nonwords"" from the speech stream, where nonwords were composed of the same syllables that the infants had been exposed to, but in a different order. This suggests that infants are able to learn statistical relationships between syllables even with very limited exposure to a language. That is, infants learn which syllables are always paired together and which ones only occur together relatively rarely, suggesting that they are parts of two different units. This method of learning is thought to be one way that children learn which groups of syllables form individual words.[citation needed]
+"
+Data mining,"Part of a series onMachine learningand data mining
+Problems
+Classification
+Regression
+Clustering
+dimension reduction
+density estimation
+Anomaly detection
+Data Cleaning
+AutoML
+Association rules
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Reinforcement learning
+Supervised learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+Supervised learning(classification • regression) 
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k-NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Cognitive computing
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+ESN
+reservoir computing
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+Transformer
+Vision
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+Multi-agent
+Self-play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human-in-the-loop
+
+Model diagnostics
+Learning curve
+
+Theory
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+Machine-learning venues
+NeurIPS
+ICML
+ICLR
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine-learning research
+Outline of machine learning
+vte","The term ""data mining"" is a misnomer because the goal is the extraction of patterns and knowledge from large amounts of data, not the extraction (mining) of data itself.[6] It also is a buzzword[7] and is frequently applied to any form of large-scale data or information processing (collection, extraction, warehousing, analysis, and statistics) as well as any application of computer decision support system, including artificial intelligence (e.g., machine learning) and business intelligence. The book Data mining: Practical machine learning tools and techniques with Java[8] (which covers mostly machine learning material) was originally to be named Practical machine learning, and the term data mining was only added for marketing reasons.[9] Often the more general terms (large scale) data analysis and analytics—or, when referring to actual methods, artificial intelligence and machine learning—are more appropriate.
+"
+Statistical classification,"This article includes a list of general references, but it lacks sufficient corresponding inline citations. Please help to improve this article by introducing more precise citations. (January 2010) (Learn how and when to remove this template message)","Often, the individual observations are analyzed into a set of quantifiable properties, known variously as explanatory variables or features.  These properties may variously be categorical (e.g. ""A"", ""B"", ""AB"" or ""O"", for blood type), ordinal (e.g. ""large"", ""medium"" or ""small""), integer-valued (e.g. the number of occurrences of a particular word in an email) or real-valued (e.g. a measurement of blood pressure). Other classifiers work by comparing observations to previous observations by means of a similarity or distance function.
+"
+Regression analysis,"Part of a series onRegression analysis
+Models
+Linear regression
+Simple regression
+Polynomial regression
+General linear model
+Proportional hazards model
+
+Generalized linear model
+Vector generalized linear model
+Discrete choice
+Binomial regression
+Binary regression
+Logistic regression
+Multinomial logistic regression
+Mixed logit
+Probit
+Multinomial probit
+Ordered logit
+Ordered probit
+Poisson
+
+Multilevel model
+Fixed effects
+Random effects
+Linear mixed-effects model
+Nonlinear mixed-effects model
+
+Nonlinear regression
+Support vector regression
+Nonparametric
+Semiparametric
+Robust
+Quantile
+Isotonic
+Principal components
+Least angle
+Local
+Segmented
+
+Errors-in-variables
+
+Estimation
+Least squares
+Linear
+Non-linear
+
+Ordinary
+Weighted
+Generalized
+Generalized estimating equation
+
+Partial
+Total
+Non-negative
+Ridge regression
+Regularized
+
+Least absolute deviations
+Iteratively reweighted
+Bayesian
+Bayesian multivariate
+Least-squares spectral analysis
+Heteroscedasticity Consistent Regression Standard Errors
+ Heteroscedasticity and Autocorrelation Consistent Regression Standard Errors
+ Instrumental variables estimation
+
+Background
+Regression validation
+Mean and predicted response
+Errors and residuals
+Goodness of fit
+Studentized residual
+Gauss–Markov theorem
+
+ Mathematics portalvte","Regression analysis is primarily used for two conceptually distinct purposes. 
+"
+Cluster analysis,"Part of a series onMachine learningand data mining
+Problems
+Classification
+Regression
+Clustering
+dimension reduction
+density estimation
+Anomaly detection
+Data Cleaning
+AutoML
+Association rules
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Reinforcement learning
+Supervised learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+Supervised learning(classification • regression) 
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k-NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Cognitive computing
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+ESN
+reservoir computing
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+Transformer
+Vision
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+Multi-agent
+Self-play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human-in-the-loop
+
+Model diagnostics
+Learning curve
+
+Theory
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+Machine-learning venues
+NeurIPS
+ICML
+ICLR
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine-learning research
+Outline of machine learning
+vte","Cluster analysis itself is not one specific algorithm, but the general task to be solved. It can be achieved by various algorithms that differ significantly in their understanding of what constitutes a cluster and how to efficiently find them. Popular notions of clusters include groups with small distances between cluster members, dense areas of the data space, intervals or particular statistical distributions. Clustering can therefore be formulated as a multi-objective optimization problem. The appropriate clustering algorithm and parameter settings (including parameters such as the distance function to use, a density threshold or the number of expected clusters) depend on the individual data set and intended use of the results. Cluster analysis as such is not an automatic task, but an iterative process of knowledge discovery or interactive multi-objective optimization that involves trial and failure. It is often necessary to modify data preprocessing and model parameters until the result achieves the desired properties.
+"
+Dimensionality reduction,"Recommender systems
+Concepts
+Collective intelligence
+Relevance
+Star ratings
+Long tail
+
+Methods and challenges
+Cold start
+Collaborative filtering
+Dimensionality reduction
+Implicit data collection
+Item-item collaborative filtering
+Matrix factorization
+Preference elicitation
+Similarity search
+
+Implementations
+Collaborative search engine
+Content discovery platform
+Decision support system
+Music Genome Project
+Product finder
+
+Research
+GroupLens Research
+MovieLens
+Netflix Prize
+vte","Methods are commonly divided into linear and nonlinear approaches.[1] Approaches can also be divided into feature selection and feature extraction.[2] Dimensionality reduction can be used for noise reduction, data visualization, cluster analysis, or as an intermediate step to facilitate other analyses.
+"
+Density estimation,"This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: ""Density estimation"" – news · newspapers · books · scholar · JSTOR (August 2012) (Learn how and when to remove this template message)","A variety of approaches to density estimation are used, including Parzen windows and a range of data clustering techniques, including vector quantization. The most basic form of density estimation is a rescaled histogram.
+"
+Anomaly detection,"Part of a series onMachine learningand data mining
+Problems
+Classification
+Regression
+Clustering
+dimension reduction
+density estimation
+Anomaly detection
+Data Cleaning
+AutoML
+Association rules
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Reinforcement learning
+Supervised learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+Supervised learning(classification • regression) 
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k-NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Cognitive computing
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+ESN
+reservoir computing
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+Transformer
+Vision
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+Multi-agent
+Self-play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human-in-the-loop
+
+Model diagnostics
+Learning curve
+
+Theory
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+Machine-learning venues
+NeurIPS
+ICML
+ICLR
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine-learning research
+Outline of machine learning
+vte","Anomaly detection finds application in many domains including cyber security, medicine, machine vision, statistics, neuroscience, law enforcement and financial fraud to name only a few. Anomalies were initially searched for clear rejection or omission from the data to aid statistical analysis, for example to compute the mean or standard deviation. They were also removed to better predictions from models such as linear regression, and more recently their removal aids the performance of machine learning algorithms. However, in many applications anomalies themselves are of interest and are the observations most desirous in the entire data set, which need to be identified and separated from noise or irrelevant outliers.
+"
+Data cleansing,"vteData
+Augmentation
+Analysis
+Archaeology
+Big
+Cleansing
+Collection
+Compression
+Corruption
+Curation
+Degradation
+Editing
+ETL/ELT
+Extract
+Transform
+Load
+Farming
+Format management
+Fusion
+Integration
+Integrity
+Library
+Lineage
+Loss
+Management
+Migration
+Mining
+Philanthropy
+Pre-processing
+Preservation
+Protection (privacy)
+Publishing
+Recovery
+Reduction
+Retention
+Quality
+Science
+Scraping
+Scrubbing
+Security
+Stewardship
+Storage
+Validation
+Warehouse
+Wrangling/munging
+","After cleansing, a data set should be consistent with other similar data sets in the system. The inconsistencies detected or removed may have been originally caused by user entry errors, by corruption in transmission or storage, or by different data dictionary definitions of similar entities in different stores. Data cleaning differs from data validation in that validation almost invariably means data is rejected from the system at entry and is performed at the time of entry, rather than on batches of data.
+"
+Automated machine learning,"Part of a series onMachine learningand data mining
+Problems
+Classification
+Regression
+Clustering
+dimension reduction
+density estimation
+Anomaly detection
+Data Cleaning
+AutoML
+Association rules
+Structured prediction
+Feature engineering
+Feature learning
+Online learning
+Reinforcement learning
+Supervised learning
+Semi-supervised learning
+Unsupervised learning
+Learning to rank
+Grammar induction
+
+Supervised learning(classification • regression) 
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k-NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine (RVM)
+Support vector machine (SVM)
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k-means
+Fuzzy
+Expectation–maximization (EM)
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t-SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k-NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Cognitive computing
+Deep learning
+DeepDream
+Multilayer perceptron
+RNN
+LSTM
+GRU
+ESN
+reservoir computing
+Restricted Boltzmann machine
+GAN
+SOM
+Convolutional neural network
+U-Net
+Transformer
+Vision
+Spiking neural network
+Memtransistor
+Electrochemical RAM (ECRAM)
+
+Reinforcement learning
+Q-learning
+SARSA
+Temporal difference (TD)
+Multi-agent
+Self-play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human-in-the-loop
+
+Model diagnostics
+Learning curve
+
+Theory
+Kernel machines
+Bias–variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+
+Machine-learning venues
+NeurIPS
+ICML
+ICLR
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine-learning research
+Outline of machine learning
+vte","In a typical machine learning application, practitioners have a set of input data points to be used for training. The raw data may not be in a form that all algorithms can be applied to. To make the data amenable for machine learning, an expert may have to apply appropriate data pre-processing, feature engineering, feature extraction, and feature selection methods. After these steps, practitioners must then perform algorithm selection and hyperparameter optimization to maximize the predictive performance of their model. If deep learning is used, the architecture of the neural network must also be chosen by the machine learning expert. 
+"
